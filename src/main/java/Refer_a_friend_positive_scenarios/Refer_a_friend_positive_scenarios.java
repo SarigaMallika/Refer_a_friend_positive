@@ -37,7 +37,6 @@ public class Refer_a_friend_positive_scenarios extends Generic_function{
 			Assert.assertEquals(true,value);
 			value = driver.findElement(By.xpath(OR_reader("Object_Locator", "refer_a_frnd_home_text"))).isDisplayed();
 			Assert.assertEquals(true,value);
-			System.out.println("1");
 		} catch (Exception e) {
 			e.printStackTrace();
 			takeScreenShot("refer_a_frnd_positive_tc_001");
@@ -52,7 +51,6 @@ public class Refer_a_friend_positive_scenarios extends Generic_function{
 			value = driver.findElement(By.xpath(OR_reader("Object_Locator", "refer_a_frnd_page_title"))).isDisplayed();
 			Assert.assertEquals(true,value);
 			browser_refresh();
-			System.out.println("2");
 		} catch (Exception e) {
 			e.printStackTrace();
 			takeScreenShot("refer_a_frnd_positive_tc_002");
@@ -66,7 +64,6 @@ public class Refer_a_friend_positive_scenarios extends Generic_function{
 			browser_wait(10);
 			value = driver.findElement(By.xpath(OR_reader("Object_Locator", "refer_a_frnd_referral_code"))).isDisplayed();
 			Assert.assertEquals(true,value);
-			System.out.println("3");
 		} catch (Exception e) {
 			e.printStackTrace();
 			takeScreenShot("refer_a_frnd_positive_tc_003");
@@ -80,7 +77,6 @@ public class Refer_a_friend_positive_scenarios extends Generic_function{
 			System.out.println("inside 004");
 			click("refer_a_frnd_share_link_button");	
 			browser_wait(20);
-			System.out.println("4");
 		} catch (Exception e) {
 			e.printStackTrace();
 			takeScreenShot("refer_a_frnd_positive_tc_004");
@@ -89,15 +85,13 @@ public class Refer_a_friend_positive_scenarios extends Generic_function{
 
 	/*TC 005 - Validate that the user should able to copy the link */
 	@When("Click on copy the link")
-	public static void refer_a_frnd_positive_tc_005() throws Exception   {
+	public static void login_positive_tc_005() throws Exception   {
 		try {
-			Thread.sleep(1000);
-			Robot robot = new Robot();
-			Thread.sleep(1000);
-			robot.keyPress(KeyEvent.VK_TAB);
-			robot.keyPress(KeyEvent.VK_TAB);
-			robot.keyPress(KeyEvent.VK_ENTER);	
-			System.out.println("5");
+			 //Thread.sleep(1000);
+			 Actions act = new Actions(driver);			   
+			 act.sendKeys(Keys.TAB).build().perform();
+			 act.sendKeys(Keys.TAB).build().perform();
+			 act.sendKeys(Keys.ENTER).build().perform();
 		} catch (Exception e) {
 			e.printStackTrace();
 			takeScreenShot("refer_a_frnd_positive_tc_005");
@@ -110,7 +104,6 @@ public class Refer_a_friend_positive_scenarios extends Generic_function{
 		try {
 			value = driver.findElement(By.xpath(OR_reader("Object_Locator", "refer_a_frnd_howits_work"))).isDisplayed();
 			Assert.assertEquals(true,value);
-			System.out.println("6");
 		} catch (Exception e) {
 			e.printStackTrace();
 			takeScreenShot("refer_a_frnd_positive_tc_006");
@@ -123,7 +116,6 @@ public class Refer_a_friend_positive_scenarios extends Generic_function{
 		try {
 			value = driver.findElement(By.xpath(OR_reader("Object_Locator", "refer_a_frnd_first_grid_text"))).isDisplayed();
 			Assert.assertEquals(true,value);
-			System.out.println("7");
 		} catch (Exception e) {
 			e.printStackTrace();
 			takeScreenShot("refer_a_frnd_positive_tc_007");
@@ -135,7 +127,6 @@ public class Refer_a_friend_positive_scenarios extends Generic_function{
 	public static void refer_a_frnd_positive_tc_008() throws Exception   {
 		try {
 			click("refer_a_frnd_faq_link");
-			System.out.println("8");
 		} catch (Exception e) {
 			e.printStackTrace();
 			takeScreenShot("refer_a_frnd_positive_tc_008");
@@ -148,7 +139,6 @@ public class Refer_a_friend_positive_scenarios extends Generic_function{
 		try {
 			value = driver.findElement(By.xpath(OR_reader("Object_Locator", "faq_page_title"))).isDisplayed();
 			Assert.assertEquals(true,value);
-			System.out.println("9");
 			browser_close();
 		} catch (Exception e) {
 			e.printStackTrace();
