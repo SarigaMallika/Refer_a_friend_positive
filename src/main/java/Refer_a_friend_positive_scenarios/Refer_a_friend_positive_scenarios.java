@@ -1,6 +1,4 @@
 package Refer_a_friend_positive_scenarios;
-import java.awt.Robot;
-import java.awt.event.KeyEvent;
 import java.io.IOException;
 import org.openqa.selenium.By;
 import org.testng.Assert;
