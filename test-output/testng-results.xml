@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-05T14:03:55 IST" name="Default suite" finished-at="2021-05-05T14:05:34 IST" duration-ms="98987">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Homepage_positive_scenarios_runner@5d7148e2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-05-05T14:03:55 IST" name="Default test" finished-at="2021-05-05T14:05:34 IST" duration-ms="98987">
+      <class name="Runner_Files.Homepage_positive_scenarios_runner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner_Files.Homepage_positive_scenarios_runner@5d7148e2]" started-at="2021-05-05T14:03:55 IST" name="setUpClass" finished-at="2021-05-05T14:03:57 IST" duration-ms="1844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Homepage_positive_scenarios_runner@5d7148e2]" started-at="2021-05-05T14:03:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-05T14:05:01 IST" duration-ms="64082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is navigated to Welcome page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Login to the Homepage]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Homepage_positive_scenarios_runner@5d7148e2]" started-at="2021-05-05T14:05:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-05T14:05:07 IST" duration-ms="6767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is able to Login with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Login to the Homepage]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Homepage_positive_scenarios_runner@5d7148e2]" started-at="2021-05-05T14:05:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-05T14:05:10 IST" duration-ms="2460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is in Home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Login to the Homepage]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Homepage_positive_scenarios_runner@5d7148e2]" started-at="2021-05-05T14:05:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-05T14:05:17 IST" duration-ms="6707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is navigated to the  Refer a friend page on clicking 'Refer a friend' button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Login to the Homepage]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner_Files.Homepage_positive_scenarios_runner@5d7148e2]" started-at="2021-05-05T14:05:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-05T14:05:30 IST" duration-ms="13167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate that the user is navigated to the Second Opinion page on clicking 'Request for second opinion' button"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User must be able to Login to the Homepage]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner_Files.Homepage_positive_scenarios_runner@5d7148e2]" started-at="2021-05-05T14:05:30 IST" name="tearDownClass" finished-at="2021-05-05T14:05:34 IST" duration-ms="3857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner_Files.Homepage_positive_scenarios_runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="1" name="Suite" annotations="JDK"
+	parallel="tests">
+	
+<test name="Test10">
+		<classes>
+			<class name="Runner_Files.Refer_a_friend_positive_scenario_runner"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite><!-- suite -->
