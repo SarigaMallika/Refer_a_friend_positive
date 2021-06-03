@@ -23,6 +23,9 @@ Scenario: Validate that user can view How its works
 Scenario: Validate that user can view the text Invite your friends to Mpowered Health by sharing your unique invitation code
    When First grid contains the text Invite your friends to Mpowered Health by sharing your unique invitation code                                      
 
+Scenario: Validate that user can able to slide the two grids visible under How its works
+   When User can able to slide the gird to view the second grid
+
 Scenario: Validate that user can able to click on the link More information & FAQ and it will navigated to Frequently asked questions page
   Given Click on the link More information & FAQ and it will redirected to Frequently asked questions page
 
